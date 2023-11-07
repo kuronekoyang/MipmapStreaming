@@ -23,3 +23,13 @@
 3. 将 MipmapStreamingController 添加到游戏中的物体
 
 ![image](https://github.com/kuronekoyang/MipmapStreaming/assets/79456057/094fbd16-d5ce-479c-949c-18ea67a28e82)
+
+
+
+如何查看效果
+
+1. 启动测试场景
+
+2. 将 TestMeshRenderer 移到摄像机外，或者将 TestParticleSystem 隐藏，都可以看到Log有相应的输出，纹理的Mipmap等级被修改（数字越大显存占用越小）
+
+3. 如果想查看实际显存占用大小，请打包测试，在Editor环境下测试存在误差
